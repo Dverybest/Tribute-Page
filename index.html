@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Tribute Page</title>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <style>
+        body {
+            background-color: #eeeeee;
+            font-family: sans-serif;
+        }
+        #main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: calc(100vh - 52px);
+        }
+
+        #title {
+            text-align: center;
+            font-size: 40px;
+            font-weight: 900;
+            margin-bottom: 0px;
+        }
+        #intro {
+            font-size: 1.2em;
+        }
+        #img-div{
+            display: flex;
+            align-items: center;
+            background-color: #000;
+            padding: 20px;
+            color: #fff;
+            width: 80%;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        figure{
+            max-width: 40vh;
+            text-align: center;
+            font-family: monospace;
+        }
+        #image {
+            max-width: 100%;
+            height: auto;
+        }
+        #tribute-info{
+            margin: 0px 20px 0px 20px;
+            text-align: justify;
+            line-height:25px;
+        }
+        #tribute-info h2{
+            text-align: center;
+            margin: 20px;
+        }
+        footer{
+            text-align: center;
+            min-height: 52px;
+            display: flex;
+            align-self:baseline;
+            justify-content: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="main">
+        <h1 id="title">Professor Chinua Achebe</h1>
+        <p id="intro">Nigerian novelist, poet, professor, and critic.</p>
+        <div id="img-div">
+            <figure>
+                    <img id="image" alt="a photo of chinua achebe on a red cap"
+                    src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Chinua_Achebe%2C_2008_%28cropped%29.jpg" />
+                <br>
+                <figcaption id="img-caption">
+                        Chinua Achebe, in 2008.
+                </figcaption>
+            </figure>
+        </div>
+        <article id="tribute-info">
+            <h2>A breif history of the legend</h2>
+            <p>Chinua Albert Chinụalụmọgụ Achebe, born  16 November 1930 and raised by his parents in the Igbo town of 
+                Ogidi in southeastern Nigeria, Achebe 
+                excelled at school and won a scholarship to 
+                study medicine, but changed his studies to 
+                English literature at University College 
+                (now the University of Ibadan). 
+                He became fascinated with world religions and 
+                traditional African cultures, and began writing 
+                stories as a university student. 
+                After graduation, he worked for the Nigerian 
+                Broadcasting Service (NBS) and soon moved to the 
+                metropolis of Lagos. He gained worldwide attention 
+                for his novel "Things Fall Apart" in the late 1950s; his later novels include:
+                <ul>
+                    <li>No Longer at Ease (1960)</li>
+                    <li>Arrow of God (1964)</li>
+                    <li>A Man of the People (1966)</li>
+                    <li>Anthills of the Savannah (1987).</li>
+                </ul>
+            </p>
+            <p>
+                Achebe wrote his novels in English and defended the use of English, a "language of colonisers", in African literature.
+                In 1975, his lecture "An Image of Africa: Racism in Conrad's Heart of Darkness" featured a criticism of Joseph Conrad as
+                "a thorough going racist"; it was later published in The Massachusetts Review amid some controversy.
+                When the region of Biafra broke away from Nigeria in 1967, Achebe became a supporter of Biafran independence and acted
+                as ambassador for the people of the new nation. The civil war that took place over the territory, commonly known as the
+                Nigerian Civil War, ravaged the populace, and as starvation and violence took its toll, he appealed to the people of
+                Europe and the Americas for aid. When the Nigerian government retook the region in 1970, he involved himself in
+                political parties but soon resigned due to frustration over the corruption and elitism he witnessed. He lived in the
+                United States for several years in the 1970s, and returned to the U.S. in 1990, after a car crash left him partially
+                disabled.
+            </p>
+            <p>
+                A titled Igbo chief himself, Achebe's novels focus on the traditions of Igbo society, the effect of Christian
+                influences, and the clash of Western and traditional African values during and after the colonial era. His style relies
+                heavily on the Igbo oral tradition, and combines straightforward narration with representations of folk stories,
+                proverbs, and oratory. He also published a large number of short stories, children's books, and essay collections.
+            </p> 
+            <p>
+                Upon Achebe's return to the United States in 1990, he began an eighteen-year tenure at Bard College as the Charles P.
+                Stevenson Professor of Languages and Literature. From 2009 until his death in <time datetime="2013-03-31"> 21 March 2013</time>, he served as David and Marianna Fisher
+                University Professor and Professor of Africana Studies at Brown University.
+            </p>   
+            <p>
+                To read more about the legendary professor, his entire life and work, checkout his <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Chinua_Achebe">Wikipedia entry.</a>
+            </p>     
+        </article>
+    </main>
+    <footer><p>Copyright Dverybest 2020</p></footer>
+</body>
+
+</html>
